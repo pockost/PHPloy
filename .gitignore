@@ -6,3 +6,6 @@
 *~
 *.swp
 .DS_Store
+
+# PHPUnit
+.phpunit.result.cache
