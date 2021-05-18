@@ -69,7 +69,9 @@ public function testSyncAddedFileShouldSucceed($testHelper)
 
 For testing FTP and SFTP at the same time tests can be parametrized. Take a look at the CommitFileTest.php:
 ```
-class CommitFileTest extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class CommitFileTest extends TestCase
 {
   public function provider()
   {
